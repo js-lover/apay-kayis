@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   },
   basePath: '/apay-kayis',
   assetPrefix: '/apay-kayis',
+  trailingSlash: true,
 };
 
 export default nextConfig;
