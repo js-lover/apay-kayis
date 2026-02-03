@@ -1,0 +1,5 @@
+:HL["/apay-kayis/_next/static/chunks/f35e68342e394a11.css","style"]
+:HL["/apay-kayis/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/apay-kayis/_next/static/media/bffd2d3ef650eff9-s.p.a1e58cfa.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/apay-kayis/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"lHD57Ks__SKpv_mpZ2LpE","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"teklif-al","paramType":null,"paramKey":"teklif-al","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
