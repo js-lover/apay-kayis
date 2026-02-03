@@ -1,3 +1,4 @@
+import { BASE_PATH } from './constants';
 export interface Category {
     title: string;
     slug: string;
@@ -29,7 +30,7 @@ export const PRODUCTS: Product[] = [
         slug: "t10-celik-kordlu-zaman-kayisi",
         sku: "ZP-T10-STEEL",
         category: "zaman-kayislari",
-        image: "/apay-kayis/timing_belts.png",
+        image: `${BASE_PATH}/timing_belts.png`,
         description: "Yüksek gerilme direnci ve minimum uzama için çelik kord takviyeli poliüretan zaman kayışı. Hassas doğrusal hareketler için idealdir.",
         specifications: [
             { label: "Hatve (Pitch)", value: "10 mm" },
@@ -38,14 +39,14 @@ export const PRODUCTS: Product[] = [
             { label: "Sertlik", value: "92 Shore A" },
             { label: "Sıcaklık Aralığı", value: "-30°C / +80°C" },
         ],
-        pdfUrl: "/apay-kayis/kataloglar",
+        pdfUrl: `${BASE_PATH}/kataloglar`,
     },
     {
         title: "8M Dişli Kayış (HTD)",
         slug: "8m-disli-kayis-htd",
         sku: "HTD-8M-RUBBER",
         category: "disli-kayislar",
-        image: "/apay-kayis/gear_belts.png",
+        image: `${BASE_PATH}/gear_belts.png`,
         description: "Yüksek verimlilik sağlayan kavisli diş yapısına sahip HTD serisi kauçuk güç aktarma kayışı. Ağır sanayi makinelerinde sessiz ve verimli çalışma sağlar.",
         specifications: [
             { label: "Hatve (Pitch)", value: "8 mm" },
@@ -54,14 +55,14 @@ export const PRODUCTS: Product[] = [
             { label: "Verimlilik", value: "%98" },
             { label: "Maks. Hız", value: "50 m/s" },
         ],
-        pdfUrl: "/apay-kayis/kataloglar",
+        pdfUrl: `${BASE_PATH}/kataloglar`,
     },
     {
         title: "Dar Kesitli V-Kayışı (SPA/SPB)",
         slug: "dar-kesitli-v-kayisi",
         sku: "V-BELT-SPB",
         category: "v-kayislari",
-        image: "/apay-kayis/v_belts.png",
+        image: `${BASE_PATH}/v_belts.png`,
         description: "Klasik V-kayışlarına kıyasla daha yüksek güç iletim kapasitesi sunan, dar kesitli endüstriyel V-kayışı. Yer tasarrufu sağlayan kompakt tasarımlar için uygundur.",
         specifications: [
             { label: "Profil", value: "SPB (Dar Kesit)" },
@@ -70,14 +71,14 @@ export const PRODUCTS: Product[] = [
             { label: "Özellik", value: "Antistatik, Yağa Dayanıklı" },
             { label: "Sıcaklık Aralığı", value: "-30°C / +80°C" },
         ],
-        pdfUrl: "/apay-kayis/kataloglar",
+        pdfUrl: `${BASE_PATH}/kataloglar`,
     },
     {
         title: "Linatex Kaplamalı Zaman Kayışı",
         slug: "linatex-kaplamali-kayis",
         sku: "COAT-LIN-40",
         category: "ozel-kaplamali",
-        image: "/apay-kayis/coated_belts.png",
+        image: `${BASE_PATH}/coated_belts.png`,
         description: "Zaman kayışları üzerine uygulanan 40 Shore A sertliğinde kırmızı Linatex kaplama. Yüksek sürtünme ve aşınma direnci ile cam ve paketleme sektöründe çekici kayış olarak kullanılır.",
         specifications: [
             { label: "Kaplama Tipi", value: "Linatex (Doğal Kauçuk)" },
@@ -85,6 +86,6 @@ export const PRODUCTS: Product[] = [
             { label: "Kalınlık", value: "2 mm - 10 mm" },
             { label: "Uygulama Alanı", value: "Cam, Seramik, Paketleme" },
         ],
-        pdfUrl: "/apay-kayis/kataloglar",
+        pdfUrl: `${BASE_PATH}/kataloglar`,
     },
 ];

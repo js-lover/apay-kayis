@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BASE_PATH } from "@/lib/constants";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <section className="relative h-[80vh] min-h-[600px] flex items-center overflow-hidden bg-industry-dark">
         <div className="absolute inset-0 z-0 opacity-40">
           <Image
-            src="/apay-kayis/industrial_conveyor_belts_hero.png"
+            src={`${BASE_PATH}/industrial_conveyor_belts_hero.png`}
             alt="Endüstriyel Kayışlar"
             fill
             className="object-cover"
@@ -59,9 +60,9 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: "Zaman Kayışları", desc: "Senkronize güç aktarımı için hassas dişli yapısı.", image: "/apay-kayis/timing_belts.png" },
-              { title: "V-Kayışları", desc: "Yüksek güç ve hız kapasiteli klasik çözümler.", image: "/apay-kayis/v_belts.png" },
-              { title: "Özel Kaplamalar", desc: "Taşıma ve konveyör sistemleri için özel yüzeyler.", image: "/apay-kayis/coated_belts.png" }
+              { title: "Zaman Kayışları", desc: "Senkronize güç aktarımı için hassas dişli yapısı.", image: `${BASE_PATH}/timing_belts.png` },
+              { title: "V-Kayışları", desc: "Yüksek güç ve hız kapasiteli klasik çözümler.", image: `${BASE_PATH}/v_belts.png` },
+              { title: "Özel Kaplamalar", desc: "Taşıma ve konveyör sistemleri için özel yüzeyler.", image: `${BASE_PATH}/coated_belts.png` }
             ].map((cat, i) => (
               <Link key={i} href="/urunler" className="group relative h-80 overflow-hidden rounded-2xl shadow-lg flex flex-col justify-end p-8 transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
                 {/* Background Image */}
